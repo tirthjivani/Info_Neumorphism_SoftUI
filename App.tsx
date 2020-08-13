@@ -46,7 +46,7 @@ export default function App() {
             </NeuMorph>
 
             <View>
-              <Text style={styles.playing}>PLAYING NOW</Text>
+              <Text style={styles.playing}>NOW PLAYING</Text>
             </View>
             <NeuMorph size={48}>
               <Entypo name="menu" size={24} color={gray} />
@@ -56,15 +56,15 @@ export default function App() {
           <View style={styles.songArtContainer}>
             <NeuMorph size={300}>
               <Image
-                source={require("./assets/Images/fl.jpg")}
+                source={require("./assets/Images/prateek.jpg")}
                 style={styles.songArt}
               />
             </NeuMorph>
           </View>
 
           <View style={styles.songContainer}>
-            <Text style={styles.title}>Lost it</Text>
-            <Text style={styles.artist}>Flume ft. Mudit Jain</Text>
+            <Text style={styles.title}>Dil Beparvah</Text>
+            <Text style={styles.artist}>Prateek Kuhad, Ankur Tewari</Text>
           </View>
 
           <View style={styles.trackContainer}>
